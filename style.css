@@ -180,8 +180,9 @@ body {
   animation: slider 12.5s infinite;
 }
 
+
 .slider .slide:nth-child(1) {
-  background-image: url('/img/slide/banner8.jpg');
+  background-image: url('/img/slide/banner1.jpg');
   animation-delay: 0s;
 }
 
