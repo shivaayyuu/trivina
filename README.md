@@ -1,5 +1,4 @@
 # trivina
 Trivina Clothing
 
-markdown
-[visit](https://shivaayyuu.github.io/trivina/)
+Click Here to visit the site: [Trivina](https://shivaayyuu.github.io/trivina/)
