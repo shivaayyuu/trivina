@@ -181,12 +181,12 @@ body {
 }
 
 .slider .slide:nth-child(1) {
-  background-image: url('/img/slide/banner1.png');
+  background-image: url('/img/slide/banner1.jpg');
   animation-delay: 0s;
 }
 
 .slider .slide:nth-child(2) {
-  background-image: url('/img/slide/banner2.png');
+  background-image: url('/img/slide/banner2.jpg');
   animation-delay: -2.5s;
 }
 
