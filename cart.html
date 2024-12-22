@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivina - Cart</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Nav-bar Section=========================================>>>>>>>>> -->
+
+    <section id="header">
+        <a href="index.html" class="logo">Trivina</a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="cart"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Checkout Cart</h2>
+    </section>
+
+    <!-- Main Section============================================>>>>>>>>> -->
+
+    <section id="page__header" class="Cart__header">
+        <p id="animated-ShoptextCart"></p>
+    </section>
+
+
+    <!-- Cart sections Start Here ====================================>>>>>>>>>> -->
+
+    <section id="cart" class="section-p1">
+        <h1 id="empty-cart-message">Add to cart / Empty Products Items</h1>
+        <table width="90%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Products</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>SubTotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Items will be added dynamically here -->
+            </tbody>
+        </table>
+    </section>
+
+
+
+    <!-- Apply cupon sections ========================================>>>>>>>>>>>> -->
+
+    <section id="crat__add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+
+        <div id="sub__total">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart SubTotal</td>
+                    <td id="cart-subtotal">$0</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td><strong id="cart-total">$0</strong></td>
+                </tr>
+            </table>
+            <button>Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer Section ====================================>>>>>>>>>>>>>>>> -->
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col">
+            <h4>Quick Links</h4>
+            <a href="#">Track my order</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="col">
+            <h4>Customer support</h4>
+            <a href="#">Request a Return/Exchange</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Sizing Chart</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="col">
+            <h4>Newsletter</h4>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <input type="submit" value="JOIN" class="submit">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Trivina - Clothing 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

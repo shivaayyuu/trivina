@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivina</title>
+    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="popup" class="popup">Product added to cart successfully!</div>
+
+    <!-- Nav-bar Section=========================================>>>>>>>>> -->
+
+    <section id="header">
+        <a href="index.html" class="logo">Trivina</a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <!-- Products Details Section=========================================>>>>>>>>> -->
+
+    <section id="proDetails" class="section-p1">
+        <div class="single__pro__image">
+            <img width="80%" src="" id="main__image" alt="">
+
+        </div>
+        <div class="single__pro__Details">
+            <h6 id="breadcrumb"></h6>
+            <h4 id="product-name"></h4>
+            <h2 id="product-price"></h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1" id="product-quantity">
+            <button onclick="addToCartFromDetail()">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span class="span">The Classic Cotton T-Shirt is a versatile and comfortable wardrobe essential suitable for
+                both men and women. It is crafted from high-quality, 100% combed cotton fabric, ensuring a soft and
+                breathable feel against the skin. The T-shirt features a timeless design, making it perfect for various
+                occasions and everyday wear.</span>
+        </div>
+    </section>
+
+    <!-- Features Product Sections =====================================>>>>>>> -->
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>All Oversized Hoodies</p>
+        <div class="pro_container">
+
+            <div class="pro" data-brand="Trivina" data-name="Oversized Hoodie #330" data-price="999.00"
+                data-image="img/products/m1.png" onclick="redirectToProductDetail(this);">
+                <img src="img/products/m1.png" alt="">
+                <div class="des">
+                    <h5>Oversized Hoodie</h5>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="javascript:void(0);" onclick="addToCart(this, event)"><i
+                        class="fal fa-shopping-cart cart__Product"></i></a>
+            </div>
+
+            <div class="pro" data-brand="Trivina" data-name="Oversized Hoodie #331" data-price="999.00"
+                data-image="img/products/m2.png" onclick="redirectToProductDetail(this);">
+                <img src="img/products/m2.png" alt="">
+                <div class="des">
+                    <h5>Oversized Hoodie</h5>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="javascript:void(0);" onclick="addToCart(this, event)"><i
+                        class="fal fa-shopping-cart cart__Product"></i></a>
+            </div>
+
+            <div class="pro" data-brand="Trivina" data-name="Oversized Hoodie #332" data-price="999.00"
+                data-image="img/products/m3.png" onclick="redirectToProductDetail(this);">
+                <img src="img/products/m3.png" alt="">
+                <div class="des">
+                    <h5>Oversized Hoodie</h5>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="javascript:void(0);" onclick="addToCart(this, event)"><i
+                        class="fal fa-shopping-cart cart__Product"></i></a>
+            </div>
+
+            <div class="pro" data-brand="Trivina" data-name="Oversized Hoodie #333" data-price="999.00"
+                data-image="img/products/m4.png" onclick="redirectToProductDetail(this);">
+                <img src="img/products/m4.png" alt="">
+                <div class="des">
+                    <h5>Oversized Hoodie</h5>
+                    <h4>Rs. 999.00</h4>
+                </div>
+                <a href="javascript:void(0);" onclick="addToCart(this, event)"><i
+                        class="fal fa-shopping-cart cart__Product"></i></a>
+            </div>
+        </div>
+        <a href="shop.html">
+            <button class="featured">VIEW ALL</button>
+        </a>
+    </section>
+
+    <!-- Footer Section ====================================>>>>>>>>>>>>>>>> -->
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col">
+            <h4>Quick Links</h4>
+            <a href="#">Track my order</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">Shipping Policy</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="col">
+            <h4>Customer support</h4>
+            <a href="#">Request a Return/Exchange</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Sizing Chart</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="col">
+            <h4>Newsletter</h4>
+            <div class="form">
+                <input type="text" placeholder="Your email address">
+                <input type="submit" value="JOIN" class="submit">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>© Trivina - Clothing 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
